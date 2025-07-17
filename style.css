@@ -1,5 +1,100 @@
 /* style.css */
-body {
-    font-family: Arial, sans-serif;
 
+/* Corps de la page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* En-tête */
+.header{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.main-title{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Bloc image + legende */
+.bio-figure{
+     background-color: #fff;
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.image-caption{
+     margin-top: 15px;
+    font-size: 1em;
+    color: #555;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+/* Contenu principal */
+.content{
+    max-width: 800px;
+    margin: 0 auto;
+     padding: 0 20px 40px;
+}
+/* Titre de la timeline */
+.timeline-title{
+     text-align: center;
+      margin-top: 40px;
+      font-size: 1.8em;
+}
+
+/* Liste des evenements */
+.timeline{
+     list-style-type: disc;
+    padding-left: 20px;
+}
+
+.timeline li{
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+/* Citation */
+.quote{
+     margin-top: 30px;
+    font-style: italic;
+    font-size: 1.2em;
+    text-align: center;
+    color: #444;
+}
+
+.quote-author{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+footer a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
